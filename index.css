@@ -1,0 +1,52 @@
+body {
+  background-image: url(./pexels-jess-bailey-designs-1172849.jpg);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-weight: bold;
+}
+.container {
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  max-width: 80%;
+  margin: auto;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+button {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
+#increment-btn {
+  background-color: purple;
+}
+#increment-btn:hover {
+  background-color: gray;
+}
+#save-btn {
+  background-color: rgb(94, 194, 94);
+}
+#save-btn:hover {
+  background-color: gray;
+}
